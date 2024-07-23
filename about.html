@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+    </head>
+    
+    <style>
+        body 
+        {
+            background-color: rgb(238, 157, 171);
+        }
+        .logo
+{
+    border: 1px solid black;
+    background-color: papayawhip;
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+.menu
+{
+    text-align: center;
+    margin-top: 40px;
+}
+.menu a
+{   
+    text-decoration: none;    
+    padding-right: 10px;
+}
+h1 
+{
+    text-align: center;
+    font-size: 40px;
+}
+.maincontainer 
+{
+    position:relative;
+    width: 250px;
+    height: 320px;
+    
+    /* background: green; */
+}
+.thecard
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: all 0.5s ease;
+    
+    /* background: yellow; */
+}
+.thecard:hover
+{
+transform: rotateY(180deg);
+}
+.jalebii
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+    background: #ffc728;
+    color: #333;
+    text-align: center;
+    font-family: 'zilla slab', sans-serif;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.aboutjalebi
+{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility:hidden;
+    background: #1ef83b;
+    color: #333;
+    transform: rotateY(180deg);
+    
+    text-align: center;
+    font-family: 'zilla slab', sans-serif;
+    border-radius: 20px;
+    font-weight: bold;
+    
+}
+.jalebi
+{
+    width: 240px;
+    height: 290px;
+    border: 1px solid yellow;
+    border-radius: 20px;
+}
+    </style>
+    <body>
+        <center><img class="logo" src="loogo.jpg"></center>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="services.html">Services</a>
+        </div>
+        <h1 style="font-size: 4opx; ">About</h1>
+
+        <!-- about the members: -->
+        <center>
+        <div class="maincontainer">
+            <div class="thecard">
+                <div  class="jalebii">Jalebi<br>
+                <img class="jalebi" src="Jalebi.jpg">
+                </div>
+                <!-- <div class  -->
+                <div class="aboutjalebi">
+                    Adoption of Jalebi in the Indian Sub-Continent
+                    <h5>The dish finds a mention in Sanskrit and Jain texts also.<br> It is now eaten across the country on occasions like weddings and even in the form of prasadam at temples.<br> The dish is particularly popular among children because it is incredibly sweet.</h5>
+                </div>
+                
+            </div>
+        </div>
+        <!-- Rabdi -->
+    </center> 
+    </body>
+</html>
